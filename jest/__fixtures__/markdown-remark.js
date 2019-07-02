@@ -14,6 +14,7 @@ module.exports = {
       date: '2016-09-01',
       description: 'test',
       title: 'test',
+      subtitle: 'test',
       tags: [
         'test_0',
         'test_1'

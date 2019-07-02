@@ -23,7 +23,8 @@ module.exports = {
             date: '2016-09-01',
             description: 'test_0',
             category: 'test',
-            title: 'test_0'
+            title: 'test_0',
+            subtitle: 'test_0_subtitle'
           }
         }
       },
@@ -37,7 +38,8 @@ module.exports = {
             date: '2016-09-01',
             description: 'test_1',
             category: 'test',
-            title: 'test_1'
+            title: 'test_1',
+            subtitle: 'test_1_subtitle'
           }
         }
       }

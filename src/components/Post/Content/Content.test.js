@@ -7,6 +7,7 @@ describe('Content', () => {
   it('renders correctly', () => {
     const props = {
       title: 'test',
+      subtitle: 'test',
       body: '<p>test</p>'
     };
 

@@ -24,7 +24,8 @@ describe('Feed', () => {
               'test-1',
               'test-2'
             ],
-            title: 'test_0'
+            title: 'test_0',
+            subtitle: 'test_0_subtitle'
           },
           id: 'test-123',
           html: '<p>test</p>'
@@ -49,7 +50,8 @@ describe('Feed', () => {
               'test-1',
               'test-2'
             ],
-            title: 'test_1'
+            title: 'test_1',
+            subtitle: 'test_1_subtitle'
           },
           id: 'test-321',
           html: '<p>test</p>'

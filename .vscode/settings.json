@@ -1,0 +1,36 @@
+{
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": true,
+  "prettier.disableLanguages": [
+    "vue",
+    "js",
+    "javascript",
+    "javascriptreact",
+    "[javascript]",
+    "[javascriptreact]"
+  ],
+  // Do not autosave files
+  "files.autoSave": "off",
+  // Set the default
+  "editor.formatOnSave": false,
+  // Enable/Disable per language
+  "[javascript]": {
+    // "editor.formatOnSave": true,
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.format.enable": false,
+  "javascript.validate.enable": false,
+  "[javascriptreact]": {
+    // "editor.formatOnSave": true,
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.formatOnSave": true
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "flow.enabled": true
+}

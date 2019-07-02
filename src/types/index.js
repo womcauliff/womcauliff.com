@@ -51,3 +51,31 @@ export type AllMarkdownRemark = {
 };
 
 export type MarkdownRemark = Node;
+
+export type SiteMetaData = {
+  site: {
+    siteMetadata: {
+      author: {
+        name: string,
+        bio: string,
+        photo: string,
+        photoLarge: string,
+        contacts: {
+          email: string,
+          twitter: string,
+          github: string,
+          rss: string,
+        },
+      },
+      menu: {
+        label: string,
+        path: string,
+      },
+      url: string,
+      title: string,
+      subtitle: string,
+      copyright: string,
+      disqusShortname: string,
+    }
+  }
+}

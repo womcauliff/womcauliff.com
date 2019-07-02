@@ -27,7 +27,7 @@ const PostTemplate = ({ data }: Props) => {
     <Layout title={postTitle} description={metaDescription}>
       <Helmet>
         <meta property="og:url" content={siteUrl + postSlug} />
-        {postImageUrl && <meta property="og:image" content={metaImage} />}
+        <meta property="og:image" content={metaImage} />
       </Helmet>
       <Post post={data.markdownRemark} />
     </Layout>

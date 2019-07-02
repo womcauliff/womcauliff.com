@@ -11,9 +11,7 @@ type Props = {
 };
 
 const PostTemplate = ({ data }: Props) => {
-  const {
-    title: siteTitle, subtitle: siteSubtitle, author, url: siteUrl
-  } = useSiteMetadata();
+  const { subtitle: siteSubtitle, author, url: siteUrl } = useSiteMetadata();
   const {
     title: postTitle,
     description: postDescription,
@@ -26,7 +24,7 @@ const PostTemplate = ({ data }: Props) => {
   const metaDescription = postDescription !== null ? postDescription : siteSubtitle;
 
   return (
-    <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription}>
+    <Layout title={postTitle} description={metaDescription}>
       <Helmet>
         <meta property="og:url" content={siteUrl + postSlug} />
         <meta property="og:image" content={metaImage} />

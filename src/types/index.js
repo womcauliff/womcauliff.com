@@ -30,6 +30,7 @@ export type Node = {
     tags?: string[],
     title: string,
     subtitle?: string,
+    img?: string,
   },
   html: string,
   id: string

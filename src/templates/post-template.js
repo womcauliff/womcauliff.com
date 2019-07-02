@@ -20,12 +20,15 @@ const PostTemplate = ({ data }: Props) => {
     img: postImageUrl
   } = data.markdownRemark.frontmatter;
 
+  const { slug: postSlug } = data.markdownRemark.fields;
+
   const metaImage = postImageUrl !== null ? postImageUrl : (siteUrl + author.photoLarge);
   const metaDescription = postDescription !== null ? postDescription : siteSubtitle;
 
   return (
     <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription}>
       <Helmet>
+        <meta property="og:url" content={siteUrl + postSlug} />
         <meta property="og:image" content={metaImage} />
       </Helmet>
       <Post post={data.markdownRemark} />

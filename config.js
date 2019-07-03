@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  url: 'https://womcauliff.com',
+  title: 'https://womcauliff.com',
+  subtitle: 'Orlando native. Alumnus of Columbia College, Class of \'14. Fascinated by the mental models we use to understand the world.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -19,15 +19,15 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Will McAuliff',
     photo: '/photo.jpg',
     photoLarge: '/photo-large.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Orlando native. Alumnus of Columbia College, Class of \'14. Fascinated by the mental models we use to understand the world.',
     contacts: {
-      email: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
+      email: 'womcauliff@gmail.com',
+      twitter: 'womcauliff',
+      github: 'womcauliff',
+      rss: '/rss.xml',
     }
   }
 };
